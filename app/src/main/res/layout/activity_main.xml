@@ -42,6 +42,16 @@
             android:layout_marginTop="10dp"
             android:text="ScrollTo/ScrollBy"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/scrollerBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrollBt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Scroller"
+            android:textAllCaps="false" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
