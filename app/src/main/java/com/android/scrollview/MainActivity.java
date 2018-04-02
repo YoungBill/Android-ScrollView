@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.offsetBt).setOnClickListener(this);
         findViewById(R.id.scrollBt).setOnClickListener(this);
         findViewById(R.id.scrollerBt).setOnClickListener(this);
+        findViewById(R.id.animationBt).setOnClickListener(this);
+        findViewById(R.id.layoutParamsBt).setOnClickListener(this);
     }
 
     @Override
@@ -28,6 +30,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.scrollerBt:
                 startActivity(new Intent(MainActivity.this, ScrollerActivity.class));
+                break;
+            case R.id.animationBt:
+                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+                break;
+            case R.id.layoutParamsBt:
+                startActivity(new Intent(MainActivity.this, LayoutParamsActivity.class));
                 break;
         }
     }

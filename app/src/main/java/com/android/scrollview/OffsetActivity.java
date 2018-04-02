@@ -38,7 +38,7 @@ public class OffsetActivity extends AppCompatActivity {
                         tv.offsetTopAndBottom((int) offsetY);
                         mLastX = x;
                         mLastY = y;
-                        Log.d(TAG, "tv位置:(" + tv.getX() + "," + tv.getY() + ")");
+                        Log.d(TAG, "tv位置:[x: " + tv.getX() + ",y: " + tv.getY() + ",left: " + tv.getLeft() + ",top: " + tv.getTop() + "]");
                         break;
                 }
                 return true;

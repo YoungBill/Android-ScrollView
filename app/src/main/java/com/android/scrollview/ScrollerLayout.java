@@ -52,7 +52,7 @@ public class ScrollerLayout extends ViewGroup {
     /**
      * 滑动系数
      */
-    private float mScroll = 0.6f;
+    private float mScroll = 0.4f;
 
     /**
      * 总页数

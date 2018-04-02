@@ -52,6 +52,26 @@
             android:layout_marginTop="10dp"
             android:text="Scroller"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/animationBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrollerBt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Animation"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/layoutParamsBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/animationBt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="LayoutParams"
+            android:textAllCaps="false" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
